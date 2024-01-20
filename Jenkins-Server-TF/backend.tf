@@ -3,7 +3,7 @@ terraform {
     bucket         = "aniket-project-bucket1"
     region         = "eu-west-1"
     key            = "full-project-of-deploy-re-nodejs-app/Jenkins-Server-TF/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+    #dynamodb_table = "Lock-Files"
     encrypt        = true
   }
   required_version = ">=0.13.0"
