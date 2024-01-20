@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "my-ews-baket1"
+    bucket         = "aniket-project-bucket1"
     region         = "eu-west-1"
     key            = "full-project-of-deploy-re-nodejs-app/Jenkins-Server-TF/terraform.tfstate"
     dynamodb_table = "Lock-Files"
